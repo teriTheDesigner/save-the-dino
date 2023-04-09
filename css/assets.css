@@ -1,0 +1,26 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 400%;
+    font-weight: 500;
+    color: #591555;
+    text-align: center;
+}
+ h2{
+     font-weight: 400;
+     font-size: 250%;
+ }
+ 
+ p {
+     font-size: 150%;
+ }
+
+.background {
+    width: 80%;
+ }
+

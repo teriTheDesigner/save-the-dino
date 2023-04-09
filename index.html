@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/game.css">
+    <title>Save the Dino</title>
+</head>
+<body>
+   <section id="screen">
+        <div id="game" class="hidden">
+            <div id="game-background"></div>
+            <div id="game-sprites">
+                <div id="asteroid1_container">
+                    <div id="asteroid1_sprite"></div>                    
+                </div>
+                <div id="asteroid2_container">
+                    <div id="asteroid2_sprite"></div>                    
+                </div>
+                <div id="asteroid3_container">
+                    <div id="asteroid3_sprite"></div>                    
+                </div>
+
+
+                <div id="balloon1_container">
+                    <div id="balloon1_sprite"></div>                    
+                </div>
+                <div id="balloon2_container">
+                    <div id="balloon2_sprite"></div>
+                </div>
+                <div id="balloon3_container">
+                    <div id="balloon3_sprite"></div>
+                </div>
+                <div id="balloon4_container">
+                    <div id="balloon4_sprite"></div>
+                </div>
+                <div id="balloon5_container">
+                    <div id="balloon5_sprite"></div>
+                </div>
+            </div>
+            
+            
+        
+            <div id="game_ui">
+                <div id="score_container">
+                <div id="score"><div id="current_score"></div></div>  </div>
+                <div id="musicOn_container"><div id="musicOn"></div></div>
+                <div id="musicOff_container"><div id="musicOff"></div></div>
+                <div id="time_container">
+                <div id="time"><div id="time_left"></div></div></div>
+                
+                <div id="lives_container"><div id="lives_sprite"></div></div>
+                <div id="Home_contrainer_game"><div id="Home_button_game"></div></div>
+            </div>
+        </div>
+        <div id="Welcome_Page" class="hidden">
+            <div id="musicOn_container1"><div id="musicOn1"></div></div>
+            
+            <div id="birds_container"><div id="birds_sprite"></div></div>
+            <div id="play_container"><div id="play_button"></div></div>
+            <div id="instructions_container"><div id="instructions_button"></div></div>
+        </div>    
+
+        <div id="Game_Over" class="hidden">
+            <div id="Home_contrainer"><div id="Home_button"></div></div>
+            <div id="musicOn_container2"><div id="musicOn2"></div></div>
+            <div id="musicOff_container2"><div id="musicOff_2"></div>  </div>
+            <div id="instructions_container1"><div id="instructions_button1"></div></div>
+            <div id="replay_container"><div id="replay_button"></div></div>
+            <div id="leaf_container"><div id="leaf_sprite"></div></div>
+
+        </div>
+
+        <div id="Instructions_Screen" class="hidden">
+            <div id="musicOn_container3"><div id="musicOn3"></div></div>
+            <div id="musicOff_container3"><div id="musicOff_3"></div>  </div>
+            <div id="play_container_inst"><div id="play_button_inst"></div></div>
+            <div id="Home_contrainer_inst"><div id="Home_button_inst"></div></div>
+            
+        </div> 
+
+        <div id="Win_Screen" class="hidden">
+            <div id="Home_contrainer_win"><div id="Home_button_win"></div></div>
+            <div id="musicOn_container4"><div id="musicOn4"></div></div>
+            <div id="musicOff_container4"><div id="musicOff_4"></div>  </div>
+            <div id="instructions_container2"><div id="instructions_button2"></div></div>
+            <div id="replay_container_win"><div id="replay_button_win"></div></div>
+            <div id="WinDino_container"> <div id="WinDino_sprite"></div>  </div>
+        </div>
+
+        <audio id="balSound" src="audio/Balloon.mp3.mp3"></audio>
+        <audio id="astSound" src="audio/Asteroid.mp3.mp3"></audio>
+        <audio id="winSound" src="audio/Win.mp3.mp3"></audio>
+        <audio id="loseSound" src="audio/GameOver.mp3"></audio>
+        <audio id="backSound" src="audio/Fluffing-a-Duck.mp3"></audio>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/gamescript.js"></script>
+</body>
+</html>
